@@ -1,10 +1,10 @@
-a# ⚓ Projeto Batalha Naval em C
+# ⚓ Projeto Batalha Naval em C
 
 Este projeto é um desafio de programação em linguagem C, proposto pela faculdade, com o objetivo de desenvolver e evoluir um jogo de Batalha Naval, através de três níveis de dificuldade: **Novato**, **Aventureiro** e **Mestre**. Cada fase propõe novos desafios que permitem aplicar os conhecimentos adquiridos em vetores, matrizes, condicionais e estruturas de repetição.
 
 ---
 
-## 💡 Desafio Nível Novato - Tabuleiro de Batalha Naval
+## Desafio Nível Novato - Tabuleiro de Batalha Naval
 
 ### Funcionalidades
 - Inicialização de um tabuleiro 10x10 com valores `0`, representando água.
@@ -22,10 +22,12 @@ Este projeto é um desafio de programação em linguagem C, proposto pela faculd
 - Estruturação de dados com `int`  
 - Impressão formatada com `printf`
 
+### Exemplo de Saida
+![image](https://github.com/user-attachments/assets/f0983e1d-cdd8-4bbf-af20-0dc59cf86e9b)
 
 ---
 
-## 🧭 Desafio Nível Aventureiro - Inserção de Navios e Visualização Estratégica
+## Desafio Nível Aventureiro - Inserção de Navios e Visualização Estratégica
 
 ### Funcionalidades
 - Inserção de navios no tabuleiro com validação de coordenadas.
@@ -43,14 +45,14 @@ Este projeto é um desafio de programação em linguagem C, proposto pela faculd
 - Manipulação de matrizes  
 - Organização e clareza na exibição de dados
 
-### 💻 Exemplo de saída
-
+### Exemplo de saída
+![image](https://github.com/user-attachments/assets/884c82cf-ea39-4ad2-9691-3de0a0ff7258)
 
 ---
 
-## 🧠 Desafio Nível Mestre - Habilidades Especiais e Áreas de Efeito
+## Desafio Nível Mestre - Habilidades Especiais e Áreas de Efeito
 
-### 💥 Habilidades Implementadas
+### Habilidades Implementadas
 Cada habilidade possui uma matriz de efeito própria, com valores `1` (área afetada) e `0` (área neutra). As habilidades são:
 
 - **Cone:** Área em formato de cone invertido, expandindo do topo até a base.
@@ -77,6 +79,7 @@ Cada habilidade possui uma matriz de efeito própria, com valores `1` (área afe
 - Sobreposição de matrizes com tratamento de bordas  
 - Representação visual de áreas de ataque estratégicas
 
-### 💻 Exemplo de saída (Cone)
+### Exemplo de saída
+![image](https://github.com/user-attachments/assets/368b5d6c-2850-4a9f-a759-002eac7e9c33)
 
 
